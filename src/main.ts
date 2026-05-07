@@ -358,7 +358,7 @@ async function loadBikeParks(): Promise<void> {
       const bf = feature as BikeParkFeature
       const props = bf.properties
       const icon = L.divIcon({
-        className: 'park-pill-marker',
+        className: 'leaflet-div-icon park-pill-marker',
         html: buildMarkerIconHtml(props.name, null),
         iconSize: [260, 96],
         iconAnchor: [130, 96],

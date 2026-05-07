@@ -53,10 +53,17 @@ footer a {
   color: #7eb8ff;
 }
 
-.leaflet-div-icon.park-pill-marker {
+/*
+ * DivIcon applies `className` on the same element as `leaflet-marker-icon`.
+ * Leaflet's own rule `.leaflet-marker-icon.leaflet-interactive { pointer-events: auto }`
+ * is loaded after our CSS, so we must match all three classes to win specificity
+ * and keep the empty parts of the iconSize box non-clickable.
+ */
+.leaflet-marker-icon.leaflet-interactive.park-pill-marker {
   border: none;
   background: transparent;
   overflow: visible;
+  pointer-events: none;
 }
 
 .park-pill-hitbox {
@@ -71,7 +78,8 @@ footer a {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  pointer-events: auto;
+  pointer-events: none;
+  width: max-content;
   max-width: 260px;
   filter: drop-shadow(0 2px 10px rgba(15, 23, 42, 0.35));
 }
@@ -86,6 +94,7 @@ footer a {
   border: 1px solid rgba(29, 78, 216, 0.45);
   background: linear-gradient(165deg, #f8fafc 0%, #e8efff 55%, #eef2ff 100%);
   color: #0f172a;
+  pointer-events: auto;
 }
 
 .park-pill__forecast {
@@ -239,6 +248,11 @@ footer a {
   }
 
   .park-popup .forecast li {
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+
+  .park-popup .address {
     white-space: normal;
     overflow-wrap: break-word;
   }
