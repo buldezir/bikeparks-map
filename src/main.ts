@@ -377,7 +377,7 @@ async function loadBikeParks(): Promise<void> {
       const container = document.createElement('div')
       container.innerHTML = buildPopupShell(props, coords)
       marker.bindPopup(container, {
-        maxWidth: 600,
+        maxWidth: Math.min(600, Math.max(240, window.innerWidth - 24)),
         keepInView: true,
         autoPanPadding: [20, 20],
       })

@@ -198,3 +198,52 @@ footer a {
   font-size: 0.85rem;
   color: #5c6370;
 }
+
+@media (max-width: 768px) {
+  #chrome {
+    display: none;
+  }
+
+  .leaflet-popup-content:has(.park-popup) {
+    max-width: calc(100vw - 1.25rem) !important;
+    max-height: min(
+      72dvh,
+      calc(
+        100dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px) - 1rem
+      )
+    );
+    overflow-x: hidden;
+  }
+
+  .park-popup {
+    min-width: 0;
+  }
+
+  .park-popup__title {
+    font-size: 0.92rem;
+    line-height: 1.3;
+  }
+
+  .park-popup .address,
+  .park-popup .route-link,
+  .park-popup .forecast,
+  .park-popup .error,
+  .park-popup .muted,
+  .park-popup .loading {
+    font-size: 0.78rem;
+  }
+
+  .park-popup .forecast ul {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .park-popup .forecast li {
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+
+  .park-popup .forecast {
+    overflow-x: hidden;
+  }
+}
