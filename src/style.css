@@ -19,6 +19,9 @@ body {
     Arial,
     sans-serif;
 }
+footer a {
+  color: #7eb8ff;
+}
 
 #map {
   flex: 1;
