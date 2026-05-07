@@ -68,7 +68,7 @@ footer a {
 
 .park-pill-hitbox {
   position: relative;
-  width: 260px;
+  width: 300px;
   height: 96px;
   pointer-events: none;
 }
@@ -80,7 +80,7 @@ footer a {
   transform: translateX(-50%);
   pointer-events: none;
   width: max-content;
-  max-width: 260px;
+  max-width: 300px;
   filter: drop-shadow(0 2px 10px rgba(15, 23, 42, 0.35));
 }
 
@@ -98,14 +98,28 @@ footer a {
 }
 
 .park-pill__forecast {
-  font-size: 0.78rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.15rem 0.3rem;
+  font-size: 0.72rem;
   font-weight: 650;
   line-height: 1.25;
-  padding: 0.28rem 0.75rem 0.22rem;
+  padding: 0.28rem 0.55rem 0.22rem;
   text-align: center;
   background: rgba(59, 130, 246, 0.18);
   border-bottom: 1px solid rgba(29, 78, 216, 0.18);
+}
+
+.park-pill__forecast-seg {
   white-space: nowrap;
+}
+
+.park-pill__forecast-sep {
+  opacity: 0.55;
+  font-weight: 500;
+  user-select: none;
 }
 
 .park-pill__name {

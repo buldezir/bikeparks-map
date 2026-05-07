@@ -23,6 +23,8 @@ const FORECAST_MIN_ZOOM = 8
 const CACHE_TTL_MS = 60 * 60 * 1000
 const FORECAST_DAYS = 14
 const FORECAST_LS_PREFIX = 'bikepark-weather:v1:forecast:'
+/** Fixed locale so dates and any future formatting stay consistent (not browser default). */
+const APP_LOCALE = 'en-GB'
 /** Fixed default view — the map does not auto-fit all parks after load. */
 const INITIAL_MAP_CENTER: L.LatLngExpression = [48.4, 10.88]
 const INITIAL_MAP_ZOOM = 7
@@ -106,16 +108,28 @@ function weatherCodeIcon(code: number): string {
   return '🌤️'
 }
 
+const PILL_FORECAST_DAYS = 3
+/** Pill strip skips index 0 (today) and starts at tomorrow. */
+const PILL_FORECAST_START_INDEX = 1
+
 function formatUltraShortForecast(data: OpenMeteoResponse): string | null {
   const daily = data.daily
   if (!daily?.time?.length) return null
-  const code = daily.weather_code[0]
-  const tMax = daily.temperature_2m_max[0]
-  const tMin = daily.temperature_2m_min[0]
-  const icon = weatherCodeIcon(code)
-  const temps =
-    Math.abs(tMax - tMin) < 2 ? `${Math.round(tMax)}°` : `${Math.round(tMin)}–${Math.round(tMax)}°`
-  return `${icon}\u00A0${temps}`
+  const available = daily.time.length - PILL_FORECAST_START_INDEX
+  if (available <= 0) return null
+  const n = Math.min(PILL_FORECAST_DAYS, available)
+  const segments: string[] = []
+  for (let k = 0; k < n; k++) {
+    const i = PILL_FORECAST_START_INDEX + k
+    const code = daily.weather_code[i]
+    const tMax = daily.temperature_2m_max[i]
+    const tMin = daily.temperature_2m_min[i]
+    const icon = weatherCodeIcon(code)
+    const temps =
+      Math.abs(tMax - tMin) < 2 ? `${Math.round(tMax)}°` : `${Math.round(tMin)}–${Math.round(tMax)}°`
+    segments.push(`<span class="park-pill__forecast-seg">${icon}\u00A0${temps}</span>`)
+  }
+  return segments.join('<span class="park-pill__forecast-sep" aria-hidden="true">·</span>')
 }
 
 function buildPillMarkup(name: string, ultraShort: string | null): string {
@@ -131,7 +145,7 @@ function buildMarkerIconHtml(name: string, ultraShort: string | null): string {
 
 function formatDayLabel(isoDate: string): string {
   const d = new Date(isoDate + 'T12:00:00')
-  return d.toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' })
+  return d.toLocaleDateString(APP_LOCALE, { weekday: 'short', month: 'short', day: 'numeric' })
 }
 
 async function fetchForecast(lat: number, lon: number, cacheKey: string): Promise<OpenMeteoResponse> {
@@ -264,7 +278,7 @@ function updateChrome(): void {
   if (forecastNote) {
     forecastNote.textContent =
       z >= FORECAST_MIN_ZOOM
-        ? 'Map labels show today’s quick icon forecast; tap a marker for full details anytime.'
+        ? 'Map labels show a 3-day outlook from tomorrow; tap a marker for full details anytime.'
         : `Zoom to ${FORECAST_MIN_ZOOM}+ for icon forecasts on map labels. Pop-up forecast loads at any zoom.`
   }
 }
@@ -360,8 +374,8 @@ async function loadBikeParks(): Promise<void> {
       const icon = L.divIcon({
         className: 'leaflet-div-icon park-pill-marker',
         html: buildMarkerIconHtml(props.name, null),
-        iconSize: [260, 96],
-        iconAnchor: [130, 96],
+        iconSize: [300, 96],
+        iconAnchor: [150, 96],
       })
       return L.marker(latlng, { icon })
     },
