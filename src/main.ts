@@ -181,7 +181,7 @@ function renderForecastHtml(data: OpenMeteoResponse): string {
     const precipBit =
       precip !== undefined && !Number.isNaN(precip) ? ` · rain chance ${Math.round(precip)}%` : ''
     rows.push(
-      `<li><strong>${escapeHtml(formatDayLabel(daily.time[i]))}</strong> ${weatherCodeIcon(code)} ${escapeHtml(summary)} · ${Math.round(tMin)}–${Math.round(tMax)}°C${escapeHtml(precipBit)}</li>`,
+      `<li><strong>${escapeHtml(formatDayLabel(daily.time[i]))}</strong> ${weatherCodeIcon(code)} ${escapeHtml(summary)} · <strong>${Math.round(tMin)}–${Math.round(tMax)}°C</strong>${escapeHtml(precipBit)}</li>`,
     )
   }
 

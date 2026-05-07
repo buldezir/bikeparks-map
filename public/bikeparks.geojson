@@ -1849,8 +1849,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.395,
-          50.69
+          15.59843,
+          50.72486
         ]
       }
     },
@@ -1885,6 +1885,23 @@
         "coordinates": [
           18.942,
           49.045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "trailpark-klinovec",
+        "name": "Trail Park Klínovec",
+        "address": "Loučná pod Klínovcem 207, 431 91 Vejprty, Czechia",
+        "country": "CZ",
+        "website": "https://www.trailpark.cz/en/trail-park/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.96694,
+          50.39583
         ]
       }
     },

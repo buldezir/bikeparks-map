@@ -2,7 +2,7 @@
 
 Small Vite + Leaflet app: European bike parks from [`public/bikeparks.geojson`](public/bikeparks.geojson), with a multi-day forecast from [Open-Meteo](https://open-meteo.com/).
 
-## Bike parks (142)
+## Bike parks (143)
 
 Source of truth for the table below is the GeoJSON file; regenerate this section if the dataset changes.
 
@@ -140,6 +140,7 @@ Source of truth for the table below is the GeoJSON file; regenerate this section
 | Tahko Bike Park | 73310 Nilsiä, Finland | [tahko.com](https://www.tahko.com/) |
 | Ticknock MTB Trails | Dublin 18, Ireland | [ticknock.ie](https://www.ticknock.ie/) |
 | Tignes Bikepark | 73320 Tignes, France | [tignes.net](https://www.tignes.net/) |
+| Trail Park Klínovec | Loučná pod Klínovcem 207, 431 91 Vejprty, Czechia | [trailpark.cz](https://www.trailpark.cz/en/trail-park/) |
 | Trailpark Žehra | 053 61 Žehra, Slovakia | [trailparkzehra.sk](https://www.trailparkzehra.sk/) |
 | Vallnord Pal Bikepark | AD400 La Massana, Andorra | [vallnord.com](https://www.vallnord.com/) |
 | Vasilitsa Mountain Bike Park | 51100 Grevena, Greece | [vasilitsa.com](https://vasilitsa.com/) |
