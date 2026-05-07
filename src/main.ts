@@ -196,7 +196,11 @@ function pointCoordinates(g: Geometry): [number, number] | null {
 
 /** Opens Google Maps directions with this point as destination (user chooses start). */
 function googleMapsRouteUrl(lat: number, lon: number): string {
-  const q = new URLSearchParams({ api: '1', destination: `${lat},${lon}` })
+  const q = new URLSearchParams({
+    api: '1',
+    destination: `${lat},${lon}`,
+    travelmode: 'driving',
+  })
   return `https://www.google.com/maps/dir/?${q}`
 }
 
