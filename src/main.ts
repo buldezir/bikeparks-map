@@ -3,6 +3,10 @@ import 'leaflet/dist/leaflet.css'
 
 import L from 'leaflet'
 import type { Feature, FeatureCollection, Geometry, Point } from 'geojson'
+import { inject } from '@vercel/analytics'
+
+// Initialize Vercel Analytics
+inject()
 
 type BikeParkProps = {
   id: string
