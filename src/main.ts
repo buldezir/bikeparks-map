@@ -17,8 +17,9 @@ const FORECAST_MIN_ZOOM = 8
 const CACHE_TTL_MS = 60 * 60 * 1000
 const FORECAST_DAYS = 14
 const FORECAST_LS_PREFIX = 'bikepark-weather:v1:forecast:'
-/** Do not zoom out below this when framing bike parks (avoids `fitBounds` overriding the initial zoom). */
-const MAP_MIN_ZOOM_AFTER_LOAD = 7
+/** Fixed default view — the map does not auto-fit all parks after load. */
+const INITIAL_MAP_CENTER: L.LatLngExpression = [48.4, 10.88]
+const INITIAL_MAP_ZOOM = 7
 
 type OpenMeteoDaily = {
   time: string[]
@@ -212,8 +213,9 @@ function buildPopupShell(props: BikeParkProps, coords: [number, number]): string
 const map = L.map('map', {
   zoomControl: true,
   worldCopyJump: true,
-  center: [50.5, 10.5],
-  zoom: MAP_MIN_ZOOM_AFTER_LOAD,
+  /** Southern Germany (Augsburg area). */
+  center: INITIAL_MAP_CENTER,
+  zoom: INITIAL_MAP_ZOOM,
 })
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -322,7 +324,7 @@ async function loadBikeParks(): Promise<void> {
   }
 
   const collection = (await res.json()) as FeatureCollection<Point, BikeParkProps>
-  const layer = L.geoJSON(collection as GeoJSON.GeoJsonObject, {
+  L.geoJSON(collection as GeoJSON.GeoJsonObject, {
     pointToLayer(feature, latlng) {
       const bf = feature as BikeParkFeature
       const props = bf.properties
@@ -362,14 +364,6 @@ async function loadBikeParks(): Promise<void> {
       })
     },
   }).addTo(map)
-
-  const b = layer.getBounds()
-  if (b.isValid()) {
-    const padded = b.pad(0.12)
-    const fitZoom = map.getBoundsZoom(padded)
-    const zoom = Math.max(MAP_MIN_ZOOM_AFTER_LOAD, fitZoom)
-    map.setView(padded.getCenter(), zoom)
-  }
 
   void refreshAllPillLabels()
 }

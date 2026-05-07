@@ -9,7 +9,13 @@
         "address": "Voa Principala 41, 7078 Lenzerheide GR, Switzerland",
         "country": "CH"
       },
-      "geometry": { "type": "Point", "coordinates": [9.5587, 46.7248] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5587,
+          46.7248
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -19,7 +25,13 @@
         "address": "74260 Les Gets, France",
         "country": "FR"
       },
-      "geometry": { "type": "Point", "coordinates": [6.6713, 46.1594] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6713,
+          46.1594
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -29,17 +41,29 @@
         "address": "Partida Casa Alfonso 22, 03189 Hondón de las Nieves, Spain",
         "country": "ES"
       },
-      "geometry": { "type": "Point", "coordinates": [-0.4712, 38.5881] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4712,
+          38.5881
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
         "id": "mottolino-livigno",
-        "name": "Mottolino Bike Park",
+        "name": "Mottolino Bike Park (Livigno)",
         "address": "Via Bondi 473/B, 23041 Livigno SO, Italy",
         "country": "IT"
       },
-      "geometry": { "type": "Point", "coordinates": [10.1378, 46.5344] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1378,
+          46.5344
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -49,7 +73,13 @@
         "address": "Kabinbanan, 837 52 Åre, Sweden",
         "country": "SE"
       },
-      "geometry": { "type": "Point", "coordinates": [13.0835, 63.3992] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0835,
+          63.3992
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -59,7 +89,13 @@
         "address": "Sonnenliftstraße 6, 5771 Leogang, Austria",
         "country": "AT"
       },
-      "geometry": { "type": "Point", "coordinates": [12.7383, 47.4389] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7383,
+          47.4389
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -69,7 +105,13 @@
         "address": "Gethin Woodland Centre, Abercanaid, Merthyr Tydfil CF48 4YZ, UK",
         "country": "GB"
       },
-      "geometry": { "type": "Point", "coordinates": [-3.4918, 51.7196] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4918,
+          51.7196
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -79,7 +121,13 @@
         "address": "Brembergstraße 37, 59955 Winterberg, Germany",
         "country": "DE"
       },
-      "geometry": { "type": "Point", "coordinates": [8.5338, 51.1905] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5338,
+          51.1905
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -89,7 +137,13 @@
         "address": "Panoramastraße 21, 6450 Sölden, Austria",
         "country": "AT"
       },
-      "geometry": { "type": "Point", "coordinates": [11.0076, 46.9719] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0076,
+          46.9719
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -99,7 +153,13 @@
         "address": "al. Marszałka Józefa Piłsudskiego 23, 34-617 Kasina Wielka, Poland",
         "country": "PL"
       },
-      "geometry": { "type": "Point", "coordinates": [19.9289, 49.7167] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9289,
+          49.7167
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -109,7 +169,13 @@
         "address": "Rohrmoosstraße 214, 8971 Schladming, Austria",
         "country": "AT"
       },
-      "geometry": { "type": "Point", "coordinates": [13.6893, 47.3924] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6893,
+          47.3924
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -119,7 +185,13 @@
         "address": "Kommerlingasse 10, 6534 Serfaus, Austria",
         "country": "AT"
       },
-      "geometry": { "type": "Point", "coordinates": [10.6089, 47.0389] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6089,
+          47.0389
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -129,7 +201,13 @@
         "address": "Torlundy, Fort William PH33 6SQ, UK",
         "country": "GB"
       },
-      "geometry": { "type": "Point", "coordinates": [-5.0032, 56.8528] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.0032,
+          56.8528
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -139,7 +217,13 @@
         "address": "Am Hopperkopf 6, 34508 Willingen (Upland), Germany",
         "country": "DE"
       },
-      "geometry": { "type": "Point", "coordinates": [8.6078, 51.2933] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6078,
+          51.2933
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -149,7 +233,2045 @@
         "address": "Route de Vonnes, 74390 Châtel, France",
         "country": "FR"
       },
-      "geometry": { "type": "Point", "coordinates": [6.8372, 46.2673] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8372,
+          46.2673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "saalbach-bikecircus",
+        "name": "Bikecircus Saalbach-Hinterglemm",
+        "address": "5753 Saalbach-Hinterglemm, Austria",
+        "country": "AT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5936777,
+          47.3724977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "wagrain-bikepark",
+        "name": "Bikepark Wagrain",
+        "address": "5602 Wagrain, Austria",
+        "country": "AT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3031532,
+          47.3336293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kitzsteinhorn-kaprun",
+        "name": "Kitzsteinhorn Freeride (Kaprun)",
+        "address": "Kesselfallstraße, 5710 Kaprun, Austria",
+        "country": "AT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7270821,
+          47.2285581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "wurbauerkogel",
+        "name": "Bikepark Wurbauerkogel",
+        "address": "4580 Windischgarsten, Austria",
+        "country": "AT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3289935,
+          47.7218417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "petzen-mtb-zone",
+        "name": "MTB Zone Petzen (Feistritz ob Bleiburg)",
+        "address": "9143 Feistritz ob Bleiburg, Austria",
+        "country": "AT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7666075,
+          46.5527878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "zauberberg-semmering",
+        "name": "Bikepark Zauberberg Semmering",
+        "address": "2680 Semmering, Austria",
+        "country": "AT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8072348,
+          47.6377253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "brandnertal-bikepark",
+        "name": "Bikepark Brandnertal",
+        "address": "6708 Brand, Austria",
+        "country": "AT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7378763,
+          47.104245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kirchberg-gaisberg",
+        "name": "Bikepark Kirchberg in Tirol (Gaisberg)",
+        "address": "6365 Kirchberg in Tirol, Austria",
+        "country": "AT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3144495,
+          47.4475913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fiss-ladis-trails",
+        "name": "Fiss-Ladis Bike Trails",
+        "address": "6533 Fiss, Austria",
+        "country": "AT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6166175,
+          47.0571538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lienz-osttirol",
+        "name": "Bikepark Lienz / Osttirodler",
+        "address": "9900 Lienz, Austria",
+        "country": "AT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7681269,
+          46.8298662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kals-grossglockner",
+        "name": "Bikepark Kals am Großglockner",
+        "address": "9981 Kals am Großglockner, Austria",
+        "country": "AT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6458495,
+          47.0023791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nassfeld-bikepark",
+        "name": "Bikepark Nassfeld (Hermagor)",
+        "address": "9620 Hermagor-Pressegger See, Austria",
+        "country": "AT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3950933,
+          46.632273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "schoeckl-trails",
+        "name": "Schöckl Trail Area (Graz)",
+        "address": "8044 Graz, Austria",
+        "country": "AT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.43736,
+          47.127655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "reiteralm-bike",
+        "name": "Reiteralm Trails (Pichl)",
+        "address": "8973 Pichl bei Rohrmoos, Austria",
+        "country": "AT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.583,
+          47.358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hochkoenig-bikepark",
+        "name": "Bikepark Hochkönig (Maria Alm / Mühlbach)",
+        "address": "5761 Maria Alm, Austria",
+        "country": "AT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.101,
+          47.421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "wurzeralm-singletrail",
+        "name": "Singletrail Wurzeralm",
+        "address": "4580 Spital am Phyrn, Austria",
+        "country": "AT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.484,
+          47.683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "feuerkogel-downhill",
+        "name": "Feuerkogel Downhill (Ebensee)",
+        "address": "4802 Ebensee, Austria",
+        "country": "AT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.326,
+          47.718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "aflenz-burgeralm",
+        "name": "Bikepark Aflenz (Bürgeralm)",
+        "address": "8794 Aflenz, Austria",
+        "country": "AT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.238,
+          47.544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "oberhof-bikepark",
+        "name": "Bikepark Oberhof",
+        "address": "98559 Oberhof, Germany",
+        "country": "DE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7257435,
+          50.7067756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "braunlage-bikepark",
+        "name": "Bikepark Braunlage (Wurmberg)",
+        "address": "37444 Braunlage, Germany",
+        "country": "DE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6095419,
+          51.7266298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "black-mountain-elstra",
+        "name": "Black Mountain Bikepark Elstra",
+        "address": "01844 Elstra, Germany",
+        "country": "DE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1350305,
+          51.220516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "samerberg-bikearena",
+        "name": "Bikearena Samerberg",
+        "address": "83122 Samerberg, Germany",
+        "country": "DE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2167,
+          47.7833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bischofsmais-bikepark",
+        "name": "Bikepark Bischofsmais",
+        "address": "94253 Bischofsmais, Germany",
+        "country": "DE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.080915,
+          48.918615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "beerfelden-bikepark",
+        "name": "Bikepark Beerfelden",
+        "address": "64760 Beerfelden, Germany",
+        "country": "DE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9527275,
+          49.5559318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "albstadt-bikepark",
+        "name": "Bikepark Albstadt",
+        "address": "72458 Albstadt, Germany",
+        "country": "DE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.999148,
+          48.233048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bad-wildbad-bikepark",
+        "name": "Bikepark Bad Wildbad",
+        "address": "75323 Bad Wildbad, Germany",
+        "country": "DE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.550301,
+          48.7502439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "flims-laax",
+        "name": "Bikepark Flims Laax",
+        "address": "7018 Flims, Switzerland",
+        "country": "CH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2834557,
+          46.8332439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "verbier-bikepark",
+        "name": "Bikepark Verbier",
+        "address": "1936 Verbier, Switzerland",
+        "country": "CH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2286765,
+          46.0961011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "zermatt-bike",
+        "name": "Zermatt Bike",
+        "address": "3920 Zermatt, Switzerland",
+        "country": "CH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.749254,
+          46.0212076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "arosa-bike-kingdom",
+        "name": "Arosa Bike Kingdom",
+        "address": "7050 Arosa, Switzerland",
+        "country": "CH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6781356,
+          46.7797248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "champery-bikepark",
+        "name": "Bikepark Champéry",
+        "address": "1874 Champéry, Switzerland",
+        "country": "CH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8687665,
+          46.1756791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "morgins-bikepark",
+        "name": "Bikepark Morgins (Portes du Soleil)",
+        "address": "1875 Morgins, Switzerland",
+        "country": "CH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8581016,
+          46.2376589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bellwald-bikepark",
+        "name": "Bikepark Bellwald",
+        "address": "3997 Bellwald, Switzerland",
+        "country": "CH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1599477,
+          46.4237017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "chur-alpenbikepark",
+        "name": "Alpenbikepark Chur",
+        "address": "7000 Chur, Switzerland",
+        "country": "CH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.451,
+          46.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gurten-trails",
+        "name": "Bikepark Gurten (Bern)",
+        "address": "3084 Köniz, Switzerland",
+        "country": "CH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.635,
+          47.283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "grindelwald-bike",
+        "name": "Grindelwald Bike & Trail",
+        "address": "3818 Grindelwald, Switzerland",
+        "country": "CH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.021,
+          46.476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "morzine-avoriaz-area",
+        "name": "Morzine / Avoriaz Bikepark",
+        "address": "74110 Morzine, France",
+        "country": "FR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7091057,
+          46.1799561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "les-deux-alpes-bikepark",
+        "name": "Les Deux Alpes Bikepark",
+        "address": "38860 Les Deux Alpes, France",
+        "country": "FR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1237609,
+          45.0099949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "alpe-dhuez-bikepark",
+        "name": "Alpe d'Huez Bikepark",
+        "address": "38750 Huez, France",
+        "country": "FR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0699443,
+          45.092401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tignes-bikepark",
+        "name": "Tignes Bikepark",
+        "address": "73320 Tignes, France",
+        "country": "FR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.907594,
+          45.4697293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "serre-chevalier-briancon",
+        "name": "Serre Chevalier Vallée (Briançon)",
+        "address": "05100 Briançon, France",
+        "country": "FR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6436313,
+          44.8984037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "chamonix-bike",
+        "name": "Chamonix Bikepark / VTTAE",
+        "address": "74400 Chamonix-Mont-Blanc, France",
+        "country": "FR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8700009,
+          45.9230969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "saint-lary-bikepark",
+        "name": "Saint-Lary-Soulan Bikepark",
+        "address": "65170 Saint-Lary-Soulan, France",
+        "country": "FR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3219538,
+          42.816936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "les-arcs-bikepark",
+        "name": "Les Arcs Bikepark",
+        "address": "73700 Bourg-Saint-Maurice, France",
+        "country": "FR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.769,
+          45.573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "megeve-bike",
+        "name": "Megève Evasion Mont Blanc Bike",
+        "address": "74120 Megève, France",
+        "country": "FR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.618,
+          45.856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pra-loup-bike",
+        "name": "Pra Loup Bikepark",
+        "address": "04400 Uvernet-Fours, France",
+        "country": "FR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.502,
+          45.246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "digne-evo-bikepark",
+        "name": "Evo Bike Park (Digne-les-Bains)",
+        "address": "04000 Digne-les-Bains, France",
+        "country": "FR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.121,
+          44.692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "les-angles-bikepark",
+        "name": "Les Angles Bikepark",
+        "address": "66210 Les Angles, France",
+        "country": "FR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0708,
+          42.5789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pila-bike-land",
+        "name": "Pila Bike Land (Aosta)",
+        "address": "11020 Gressan AO, Italy",
+        "country": "IT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3108236,
+          45.687269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bardonecchia-bike",
+        "name": "Bardonecchia Bikepark",
+        "address": "10052 Bardonecchia TO, Italy",
+        "country": "IT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.703205,
+          45.078339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "la-thuile-bikepark",
+        "name": "La Thuile Bikepark",
+        "address": "11016 La Thuile AO, Italy",
+        "country": "IT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9182886,
+          45.6971464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "paganella-bike",
+        "name": "Dolomiti Paganella Bike",
+        "address": "38010 Andalo TN, Italy",
+        "country": "IT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.866,
+          46.166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ponte-legno-tonale",
+        "name": "Ponte di Legno – Tonale Bike",
+        "address": "25056 Ponte di Legno BS, Italy",
+        "country": "IT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.593,
+          46.259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cervinia-bike",
+        "name": "Cervino Bike Paradise",
+        "address": "11021 Breuil-Cervinia AO, Italy",
+        "country": "IT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.631,
+          45.944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kronplatz-bike",
+        "name": "Kronplatz Bike (Plan de Corones)",
+        "address": "39030 San Vigilio di Marebbe BZ, Italy",
+        "country": "IT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.016,
+          46.738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "monterosa-bike",
+        "name": "Monterosa Ski & Bike (Champoluc)",
+        "address": "11020 Ayas AO, Italy",
+        "country": "IT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.731,
+          45.834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "madesimo-bike",
+        "name": "Madesimo Bikepark",
+        "address": "23022 Madesimo SO, Italy",
+        "country": "IT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.244,
+          46.403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "abetone-gravity",
+        "name": "Abetone Gravity Park",
+        "address": "51021 Abetone PT, Italy",
+        "country": "IT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.673,
+          44.146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "campo-felice-bike",
+        "name": "Swup Bike Park Campo Felice",
+        "address": "67041 Campo Felice AQ, Italy",
+        "country": "IT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.456,
+          42.218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "monte-alpet-bike",
+        "name": "Monte Alpet Bikepark",
+        "address": "28887 Omegna VB, Italy",
+        "country": "IT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.258,
+          45.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "la-molina-bikepark",
+        "name": "La Molina Bikepark",
+        "address": "17537 Alp, Girona, Spain",
+        "country": "ES"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.926,
+          42.339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "baqueira-beret-bike",
+        "name": "Baqueira Beret Bikepark",
+        "address": "25598 Naut Aran, Lleida, Spain",
+        "country": "ES"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.934,
+          42.708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cerler-bikepark",
+        "name": "Bikepark Cerler",
+        "address": "22449 Cerler, Huesca, Spain",
+        "country": "ES"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.537,
+          42.589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sierra-nevada-bike",
+        "name": "Sierra Nevada Bikepark",
+        "address": "18196 Pradollano, Granada, Spain",
+        "country": "ES"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.401,
+          37.097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "panticosa-bikepark",
+        "name": "Panticosa Bikepark",
+        "address": "22661 Panticosa, Huesca, Spain",
+        "country": "ES"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.293,
+          42.719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "zona-zero-ainsa",
+        "name": "Zona Zero Bike Park (Aínsa)",
+        "address": "22330 Aínsa, Huesca, Spain",
+        "country": "ES"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.139,
+          42.417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "manzaneda-bikepark",
+        "name": "Manzaneda Bikepark",
+        "address": "32765 Manzaneda, Ourense, Spain",
+        "country": "ES"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.233,
+          42.317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "la-pinilla-bikepark",
+        "name": "La Pinilla Bikepark",
+        "address": "40176 Riaza, Segovia, Spain",
+        "country": "ES"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.761,
+          41.133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "irrisarri-land",
+        "name": "Irrisarri Land Bikepark",
+        "address": "31796 Larraintzar, Navarra, Spain",
+        "country": "ES"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.735,
+          42.99
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4riders-avia",
+        "name": "4Riders Bikepark Avià",
+        "address": "08610 Avià, Barcelona, Spain",
+        "country": "ES"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.843,
+          42.071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "la-sorrera-bikepark",
+        "name": "La Sorrera Bikepark",
+        "address": "08530 La Garriga, Barcelona, Spain",
+        "country": "ES"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.217,
+          41.959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "la-poma-bikepark",
+        "name": "La Poma Bikepark (Santa Susanna)",
+        "address": "08398 Santa Susanna, Barcelona, Spain",
+        "country": "ES"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.556,
+          41.947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pure-riding-osor",
+        "name": "Pure Riding Bikepark Osor",
+        "address": "17161 Osor, Girona, Spain",
+        "country": "ES"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.432,
+          42.181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "vallnord-pal-bikepark",
+        "name": "Vallnord Pal Bikepark",
+        "address": "AD400 La Massana, Andorra",
+        "country": "AD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4759787,
+          42.5457992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lousa-bikepark",
+        "name": "Bike Park Lousã",
+        "address": "3200 Lousã, Portugal",
+        "country": "PT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.002,
+          40.116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "spaarnwoude-bikepark",
+        "name": "Bikepark Spaarnwoude (SnowWorld)",
+        "address": "1981 LV Velsen-Zuid, Netherlands",
+        "country": "NL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6769835,
+          52.4440655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sweet-rock-city",
+        "name": "Bikepark Sweet Rock City (Zoetermeer)",
+        "address": "2717 AX Zoetermeer, Netherlands",
+        "country": "NL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4901218,
+          52.0622531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bikepark-bant",
+        "name": "Bikepark Bant (Noordoostpolder)",
+        "address": "8314 Bant, Netherlands",
+        "country": "NL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.748,
+          52.714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ferme-libert-malmedy",
+        "name": "Bikepark Ferme Libert",
+        "address": "Route de la Ferme Libert 33, 4960 Malmedy, Belgium",
+        "country": "BE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0276059,
+          50.4265348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hafjell-bikepark",
+        "name": "Hafjell Bike Park",
+        "address": "2636 Øyer, Norway",
+        "country": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5269539,
+          61.2296722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "drammen-skimore-bikepark",
+        "name": "Skimore Drammen Bike Park",
+        "address": "3040 Drammen, Norway",
+        "country": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.175642,
+          59.6964936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nesfjellet-bikepark",
+        "name": "Nesfjellet Bike Park",
+        "address": "3540 Nesbyen, Norway",
+        "country": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0283417,
+          60.5468243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "harstad-bikepark",
+        "name": "Harstad Bike Park",
+        "address": "9405 Harstad, Norway",
+        "country": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5440322,
+          68.799943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "silkeborg-bikepark",
+        "name": "Silkeborg BikePark",
+        "address": "8600 Silkeborg, Denmark",
+        "country": "DK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5495141,
+          56.169453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "vejle-bikepark",
+        "name": "Vejle BikePark",
+        "address": "7100 Vejle, Denmark",
+        "country": "DK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5329419,
+          55.707931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mustavuori-bikepark",
+        "name": "Mustavuori Bike Park (Tampere)",
+        "address": "Tampere, Finland",
+        "country": "FI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.600953,
+          61.4953909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kalpalinna-bikepark",
+        "name": "Kalpalinna Bike Park",
+        "address": "31300 Turenki, Finland",
+        "country": "FI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.633,
+          60.916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sappee-bikepark",
+        "name": "Sappee Bike Park",
+        "address": "36410 Pälkäne, Finland",
+        "country": "FI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8,
+          61.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tahko-bikepark",
+        "name": "Tahko Bike Park",
+        "address": "73310 Nilsiä, Finland",
+        "country": "FI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.65,
+          62.24
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "yllas-bikepark",
+        "name": "Ylläs Bike Park",
+        "address": "95980 Kolari, Finland",
+        "country": "FI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.966,
+          66.17
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "levi-bikepark",
+        "name": "Levi Bike Park",
+        "address": "99130 Kittilä, Finland",
+        "country": "FI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.802,
+          67.805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kouty-bikepark",
+        "name": "Bikepark Kouty nad Desnou",
+        "address": "788 11 Kouty nad Desnou, Czechia",
+        "country": "CZ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.116547,
+          50.101047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "moninec-bikepark",
+        "name": "Bikepark Monínec",
+        "address": "257 91 Sedlec-Prčice, Czechia",
+        "country": "CZ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5206536,
+          49.5500714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "spindleruv-mlyn-bike",
+        "name": "Špindlerův Mlýn Bikepark",
+        "address": "543 51 Špindlerův Mlýn, Czechia",
+        "country": "CZ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.395,
+          50.69
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pec-pod-snezkou-bike",
+        "name": "Pec pod Sněžkou Bikepark",
+        "address": "542 21 Pec pod Sněžkou, Czechia",
+        "country": "CZ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.92,
+          50.53
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "jasenska-bikepark",
+        "name": "Bike Park Jasenská (Turiec)",
+        "address": "038 02 Jasenská dolina, Slovakia",
+        "country": "SK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.942,
+          49.045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "trailpark-zehra",
+        "name": "Trailpark Žehra",
+        "address": "053 61 Žehra, Slovakia",
+        "country": "SK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.7920224,
+          48.9804224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kalnica-freeride",
+        "name": "Freeride Bikepark Kálnica",
+        "address": "916 16 Kálnica, Slovakia",
+        "country": "SK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.783,
+          48.703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bachledka-bike-park",
+        "name": "Bike Park Bachledka",
+        "address": "059 86 Ždiar, Slovakia",
+        "country": "SK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.325,
+          49.289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kranjska-gora-bikepark",
+        "name": "Bike Park Kranjska Gora",
+        "address": "4280 Kranjska Gora, Slovenia",
+        "country": "SI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8434055,
+          46.4502123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "platak-bikepark",
+        "name": "Platak Bike Park (Čavle)",
+        "address": "50300 Čavle, Croatia",
+        "country": "HR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5646742,
+          45.4249524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "postavarul-bikepark",
+        "name": "Bike Park Postăvarul (Poiana Brașov)",
+        "address": "500001 Poiana Brașov, Romania",
+        "country": "RO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5561895,
+          45.5967098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pamporovo-velopark",
+        "name": "Velopark Pamporovo",
+        "address": "4870 Pamporovo, Bulgaria",
+        "country": "BG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6948671,
+          41.6517608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kopaonik-bikepark",
+        "name": "Kopaonik Bike Park",
+        "address": "36354 Kopaonik, Serbia",
+        "country": "RS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.789,
+          43.281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sipark-matraszentistvan",
+        "name": "Sípark / MTB Mátraszentistván",
+        "address": "3232 Mátraszentistván, Hungary",
+        "country": "HU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.861,
+          47.909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "wisla-skolnity-bike",
+        "name": "Skolnity Ski & Bike Park (Wisła)",
+        "address": "43-460 Wisła, Poland",
+        "country": "PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0867774,
+          52.380897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "szczyrk-bikepark",
+        "name": "Szczyrk Mountain Resort Bike",
+        "address": "43-370 Szczyrk, Poland",
+        "country": "PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0254613,
+          49.7165976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "slotwiny-arena-bike",
+        "name": "Bike Park Słotwiny Arena (Krynica)",
+        "address": "33-380 Krynica-Zdrój, Poland",
+        "country": "PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9594176,
+          49.4206138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mosorny-gron-bike",
+        "name": "PKL Bike Park Mosorny Groń (Zawoja)",
+        "address": "34-223 Zawoja, Poland",
+        "country": "PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5579108,
+          49.6600228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "palenica-ustron-bike",
+        "name": "Bike Park Palenica (Ustroń)",
+        "address": "43-450 Ustroń, Poland",
+        "country": "PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8251075,
+          49.7186488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "czarna-gora-bike",
+        "name": "Bike Park Czarna Góra (Sienna)",
+        "address": "57-250 Stronie Śląskie, Poland",
+        "country": "PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.872,
+          50.471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kazoora-warsaw",
+        "name": "Kazoora Bike Park (Warsaw)",
+        "address": "05-462 Wiązowna, Poland",
+        "country": "PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.012,
+          52.254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "glentress-trails",
+        "name": "Glentress (7Stanes)",
+        "address": "EH45 8NB Peebles, Scotland, UK",
+        "country": "GB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1820066,
+          55.6569364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "innerleithen-trails",
+        "name": "Innerleithen (7Stanes)",
+        "address": "EH44 6QH Innerleithen, Scotland, UK",
+        "country": "GB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0633843,
+          55.6190744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "revolution-bike-park",
+        "name": "Revolution Bike Park",
+        "address": "SY10 0ES Llangynog, Wales, UK",
+        "country": "GB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4086549,
+          52.8200064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dyfi-bike-park",
+        "name": "Dyfi Bike Park",
+        "address": "SY20 9AS Corris, Wales, UK",
+        "country": "GB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8523035,
+          52.6237532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "antur-stiniog",
+        "name": "Antur Stiniog",
+        "address": "LL41 3NB Blaenau Ffestiniog, Wales, UK",
+        "country": "GB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9412544,
+          53.0063959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rogate-downhill",
+        "name": "Rogate Downhill",
+        "address": "GU31 5DL Rogate, England, UK",
+        "country": "GB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.853,
+          51.027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ticknock-mtb",
+        "name": "Ticknock MTB Trails",
+        "address": "Dublin 18, Ireland",
+        "country": "IE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.234,
+          53.215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "joulumae-trails",
+        "name": "Jõulumäe Sports Centre MTB",
+        "address": "66224 Jõulumäe, Estonia",
+        "country": "EE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.29,
+          57.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "milzkalns-bikepark",
+        "name": "Milzkalns Bike Park",
+        "address": "LV-3128 Milzkalns, Latvia",
+        "country": "LV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.001,
+          56.801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "snow-arena-bike",
+        "name": "Snow Arena Bike Park (Druskininkai)",
+        "address": "66120 Druskininkai, Lithuania",
+        "country": "LT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.978,
+          54.024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "vasilitsa-bikepark",
+        "name": "Vasilitsa Mountain Bike Park",
+        "address": "51100 Grevena, Greece",
+        "country": "GR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0835298,
+          40.0582718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marathon-bike-park",
+        "name": "Marathon Bike Park (Nea Makri)",
+        "address": "Nea Makri, Attica, Greece",
+        "country": "GR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.97907,
+          38.083049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "boy-konen-bikepark",
+        "name": "Boy Konen Bike Park",
+        "address": "L-1274 Luxembourg City, Luxembourg",
+        "country": "LU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1354,
+          49.5855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "echternach-bike-park",
+        "name": "Bike Park Echternach",
+        "address": "L-6460 Echternach, Luxembourg",
+        "country": "LU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.42,
+          49.811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hjoladrottningin-reykjavik",
+        "name": "Hjóladrottningin Reykjavík Bike Park",
+        "address": "104 Reykjavík, Iceland",
+        "country": "IS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.895,
+          64.145
+        ]
+      }
     }
   ]
 }
