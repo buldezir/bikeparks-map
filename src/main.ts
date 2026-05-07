@@ -9,6 +9,8 @@ type BikeParkProps = {
   name: string
   address: string
   country: string
+  /** Official / resort site (https). */
+  website?: string
 }
 
 type BikeParkFeature = Feature<Point, BikeParkProps>
@@ -198,12 +200,31 @@ function googleMapsRouteUrl(lat: number, lon: number): string {
   return `https://www.google.com/maps/dir/?${q}`
 }
 
+function isAllowedWebsiteUrl(url: string): boolean {
+  try {
+    const u = new URL(url.trim())
+    return u.protocol === 'https:' || u.protocol === 'http:'
+  } catch {
+    return false
+  }
+}
+
+function buildPopupTitleHtml(props: BikeParkProps): string {
+  const title = escapeHtml(props.name)
+  const raw = props.website?.trim()
+  if (raw && isAllowedWebsiteUrl(raw)) {
+    const href = escapeHtml(raw)
+    return `<h2 class="park-popup__title"><a class="park-popup__title-link" href="${href}" target="_blank" rel="noopener noreferrer">${title}</a></h2>`
+  }
+  return `<h2 class="park-popup__title">${title}</h2>`
+}
+
 function buildPopupShell(props: BikeParkProps, coords: [number, number]): string {
   const [lon, lat] = coords
   const routeUrl = googleMapsRouteUrl(lat, lon)
   return `
 <div class="park-popup">
-  <h2>${escapeHtml(props.name)}</h2>
+  ${buildPopupTitleHtml(props)}
   <p class="address">${escapeHtml(props.address)}</p>
   <p class="route-link"><a href="${escapeHtml(routeUrl)}" target="_blank" rel="noopener noreferrer">Plan route in Google Maps</a></p>
   <div class="forecast-slot"></div>
