@@ -1,0 +1,155 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bike-kingdom-lenzerheide",
+        "name": "Bike Kingdom Lenzerheide",
+        "address": "Voa Principala 41, 7078 Lenzerheide GR, Switzerland",
+        "country": "CH"
+      },
+      "geometry": { "type": "Point", "coordinates": [9.5587, 46.7248] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "les-gets-portes-du-soleil",
+        "name": "Les Gets (Portes du Soleil)",
+        "address": "74260 Les Gets, France",
+        "country": "FR"
+      },
+      "geometry": { "type": "Point", "coordinates": [6.6713, 46.1594] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "la-fenasosa",
+        "name": "La Fenasosa Bike Park",
+        "address": "Partida Casa Alfonso 22, 03189 Hondón de las Nieves, Spain",
+        "country": "ES"
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.4712, 38.5881] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mottolino-livigno",
+        "name": "Mottolino Bike Park",
+        "address": "Via Bondi 473/B, 23041 Livigno SO, Italy",
+        "country": "IT"
+      },
+      "geometry": { "type": "Point", "coordinates": [10.1378, 46.5344] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "are-bike-park",
+        "name": "Åre Bike Park",
+        "address": "Kabinbanan, 837 52 Åre, Sweden",
+        "country": "SE"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.0835, 63.3992] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "leogang",
+        "name": "Bikepark Leogang",
+        "address": "Sonnenliftstraße 6, 5771 Leogang, Austria",
+        "country": "AT"
+      },
+      "geometry": { "type": "Point", "coordinates": [12.7383, 47.4389] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bikepark-wales",
+        "name": "BikePark Wales",
+        "address": "Gethin Woodland Centre, Abercanaid, Merthyr Tydfil CF48 4YZ, UK",
+        "country": "GB"
+      },
+      "geometry": { "type": "Point", "coordinates": [-3.4918, 51.7196] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "winterberg",
+        "name": "Bikepark Winterberg",
+        "address": "Brembergstraße 37, 59955 Winterberg, Germany",
+        "country": "DE"
+      },
+      "geometry": { "type": "Point", "coordinates": [8.5338, 51.1905] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "solden-bike-republic",
+        "name": "Bike Republic Sölden",
+        "address": "Panoramastraße 21, 6450 Sölden, Austria",
+        "country": "AT"
+      },
+      "geometry": { "type": "Point", "coordinates": [11.0076, 46.9719] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bike-park-kasina",
+        "name": "Bike Park Kasina",
+        "address": "al. Marszałka Józefa Piłsudskiego 23, 34-617 Kasina Wielka, Poland",
+        "country": "PL"
+      },
+      "geometry": { "type": "Point", "coordinates": [19.9289, 49.7167] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "schladming-planai",
+        "name": "Schladming Bikepark (Planai)",
+        "address": "Rohrmoosstraße 214, 8971 Schladming, Austria",
+        "country": "AT"
+      },
+      "geometry": { "type": "Point", "coordinates": [13.6893, 47.3924] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "serfaus-fiss-ladis",
+        "name": "Serfaus-Fiss-Ladis Bikepark",
+        "address": "Kommerlingasse 10, 6534 Serfaus, Austria",
+        "country": "AT"
+      },
+      "geometry": { "type": "Point", "coordinates": [10.6089, 47.0389] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fort-william-nevis-range",
+        "name": "Nevis Range Bike Park (Fort William)",
+        "address": "Torlundy, Fort William PH33 6SQ, UK",
+        "country": "GB"
+      },
+      "geometry": { "type": "Point", "coordinates": [-5.0032, 56.8528] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "willingen",
+        "name": "Bikepark Willingen",
+        "address": "Am Hopperkopf 6, 34508 Willingen (Upland), Germany",
+        "country": "DE"
+      },
+      "geometry": { "type": "Point", "coordinates": [8.6078, 51.2933] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "chatel",
+        "name": "Châtel Bikepark",
+        "address": "Route de Vonnes, 74390 Châtel, France",
+        "country": "FR"
+      },
+      "geometry": { "type": "Point", "coordinates": [6.8372, 46.2673] }
+    }
+  ]
+}
